@@ -35,17 +35,3 @@ A connection to the MySQL database is established using JDBC.
 Prepared statements are used for executing SQL queries safely, preventing SQL injection.
 Menu-Driven Interface:
 
-A console-based interface allows users to select options for managing patients, viewing doctors, and booking appointments.
-Input is handled using Scanner, and user input is validated.
-Error Handling:
-
-SQL exceptions are caught and logged to ensure the application can provide meaningful feedback to the user.
-Foreign key constraints are respected to prevent deletion of patients with existing appointments.
-Challenges Faced
-Managing foreign key constraints during the deletion of patients.
-Ensuring the application handles exceptions gracefully, providing users with clear messages about what went wrong.
-Designing the database schema to effectively represent the relationships between patients, doctors, and appointments.
-Future Enhancements
-Implementing a GUI using Java Swing for a more user-friendly experience.
-Adding authentication to differentiate between user roles (e.g., doctors, nurses, admin).
-Expanding the system to include features like billing, patient history, and prescriptions.
