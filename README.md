@@ -26,12 +26,5 @@ Appointment history can be viewed for each doctor, showing past patients and tim
 Technical Implementation
 Database Schema:
 
-Patients Table: Contains fields like patient_id, first_name, last_name, etc.
-Doctors Table: Similar structure with additional fields for specialty and experience.
-Appointments Table: Links patients to doctors and includes date and time of the appointment.
-JDBC Connection:
 
-A connection to the MySQL database is established using JDBC.
-Prepared statements are used for executing SQL queries safely, preventing SQL injection.
-Menu-Driven Interface:
 
