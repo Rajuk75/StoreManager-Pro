@@ -25,6 +25,3 @@ Users can book appointments by checking the availability of doctors on specific 
 Appointment history can be viewed for each doctor, showing past patients and times.
 Technical Implementation
 Database Schema:
-
-
-
