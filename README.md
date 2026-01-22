@@ -21,7 +21,4 @@ Update: Updating patient and doctor information as needed (not directly shown bu
 Delete: Removing patients from the system, ensuring constraints are respected.
 Appointment Management:
 
-Users can book appointments by checking the availability of doctors on specific dates.
-Appointment history can be viewed for each doctor, showing past patients and times.
-Technical Implementation
-Database Schema:
+
